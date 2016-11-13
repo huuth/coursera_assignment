@@ -31,6 +31,7 @@ body {
   border-radius: 0;
   border: 0;
   padding: 15px 0;
+  margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -92,3 +93,101 @@ span.lato-regular-blue {
 }
 
 /* END HEADER */
+
+/* SLIDESHOW */
+
+#carousel-show {
+	background: #81e4ed;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      padding: 20px 0px 40px 0px;
+  }
+
+.carousel-indicators {
+	bottom: 0px;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+	height: 12px;
+	width: 12px;
+	margin: 0px 10px;
+}
+
+.carousel-caption-text {
+    left: 0;
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    bottom: 20%;
+    padding-left: 5%;
+    width: 40%;
+
+}
+.carousel-caption h1 {
+	font-family: 'Lato-Bold'; 
+	font-size: 4em;
+}
+
+.carousel-caption-img {
+	bottom: 10%;
+}
+
+/* END SLIDESHOW */
+
+/*middle-section*/
+#middle-section{
+	background: #e8ebf1;
+	padding: 35px 0;
+}
+
+.glyphicon-chevron-right {
+	color: #000;
+	size: 80%;
+}
+
+.title-icon > span{
+	margin-left: 20px;
+	font-size: .7em;
+	font-weight: bold;
+}
+
+#middle-section a {
+	color: #2aacc8;
+}
+
+
+
+/*middle-section*/
+
+/*LATEST WORK*/
+.img-responsive{
+	width:100%;
+	height:auto;
+}
+/*END LATEST WORK*/
+
+/* TESTIMONIALS CLIENTS*/
+
+#testimonials-clients p > span {
+	font-style: italic;
+	font-weight: bold;
+}
+
+#logo-list {
+	background: #fff;
+}
+
+.logo-box {
+	width: 160px;
+	height: 101px;
+}
+
+.logo-box img {
+	width:100%;
+	height:auto;
+}
+
+/* ENDTESTIMONIALS CLIENTS*/
