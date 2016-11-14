@@ -24,6 +24,9 @@ body {
   color: #000;
   font-family: 'Arial', sans-serif;
 }
+hr {
+	margin-bottom: 10px;
+}
 
 /** HEADER **/
 #header-nav {
@@ -167,6 +170,31 @@ span.lato-regular-blue {
 	width:100%;
 	height:auto;
 }
+
+.link-preview {
+	background: #2aacc8;
+	position: absolute;
+	height: 0%;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	padding: 10%;
+	opacity: 0;
+}
+
+.link-mask {
+	position: relative;
+}
+
+.mask-hover {
+	padding: 20px;
+}
+
+.mask-hover:hover .link-preview{
+	opacity: 1;
+	transition: all 0.5s;
+	height: 50%;
+}
 /*END LATEST WORK*/
 
 /* TESTIMONIALS CLIENTS*/
@@ -185,9 +213,8 @@ span.lato-regular-blue {
 	height: 101px;
 }
 
-.logo-box img {
-	width:100%;
-	height:auto;
+#logo-list {
+	padding: auto;
 }
 
 /* ENDTESTIMONIALS CLIENTS*/
