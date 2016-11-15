@@ -218,3 +218,28 @@ span.lato-regular-blue {
 }
 
 /* ENDTESTIMONIALS CLIENTS*/
+
+/* DOWNLOAD PSD*/
+.box-download {
+	background: #e8fcfe;
+	border: 1px solid #81e4ed;
+	padding: 30px;
+}
+
+.download-psd button{
+	background: #2aacc8;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.download-psd button > p {
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	color: black;
+	margin: 20px;
+}
+
+.download-psd button > p > img {
+	margin-right: 20px;
+}
+/* END DOWNLOAD PSD*/
