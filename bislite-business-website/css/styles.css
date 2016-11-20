@@ -21,7 +21,7 @@
 }
 
 body {
-  color: #000;
+  color: #363636;
   font-family: 'Arial', sans-serif;
 }
 hr {
@@ -42,9 +42,16 @@ hr {
 }
 
 .navbar-brand h1 { 
-  font-size: 2em;
   margin-top: -20px;
   margin-bottom: 0;
+}
+
+.navbar-brand a {
+	text-decoration: none;
+}
+
+.logo-style {
+	font-size: 50px;
 }
 
 span.lato-bold-black {
@@ -59,6 +66,12 @@ span.lato-regular-blue {
 
 #nav-list > li > a {
 	color: black;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+}
+
+#nav-list > li {
+	border-top: 5px solid #e8ebf1;
 }
 
 #nav-list > li:hover {
@@ -131,7 +144,7 @@ span.lato-regular-blue {
 }
 .carousel-caption h1 {
 	font-family: 'Lato-Bold'; 
-	font-size: 4em;
+	font-size: 50px;
 }
 
 .carousel-caption-img {
@@ -151,17 +164,44 @@ span.lato-regular-blue {
 	size: 80%;
 }
 
-.title-icon > span{
+.title-icon {
 	margin-left: 20px;
-	font-size: .7em;
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
 	font-weight: bold;
+	display: inline-block;
+	color: black;
+
+}
+
+.arrow-control {
+	margin-top: 20px;
 }
 
 #middle-section a {
 	color: #2aacc8;
+	font-size: 13px;
+	text-decoration: none;
+	font-family: 'Arial', sans-serif;
+}
+
+#middle-section a > span {
+	font-size: 10px;
 }
 
 
+#middle-section p {
+	margin-top: 10px;
+}
+
+#middle-section img {
+	width: 42px;
+}
+
+#middle-section p {
+	font-family: 'Arial', sans-serif;
+	font-size: 13px;
+}
 
 /*middle-section*/
 
@@ -182,6 +222,10 @@ span.lato-regular-blue {
 	opacity: 0;
 }
 
+.link-preview a {
+	margin: 0px 5px;
+}
+
 .link-mask {
 	position: relative;
 }
@@ -199,9 +243,14 @@ span.lato-regular-blue {
 
 /* TESTIMONIALS CLIENTS*/
 
+#testimonials-clients {
+	padding-bottom: 30px;
+}
+
 #testimonials-clients p > span {
 	font-style: italic;
 	font-weight: bold;
+	color: black;
 }
 
 #logo-list {
@@ -223,7 +272,6 @@ span.lato-regular-blue {
 .box-download {
 	background: #e8fcfe;
 	border: 1px solid #81e4ed;
-	padding: 30px;
 }
 
 .download-psd button{
@@ -231,6 +279,7 @@ span.lato-regular-blue {
 	text-align: center;
 	padding-top: 0;
 	padding-bottom: 0;
+	border: 1px solid #2aacc8;
 }
 .download-psd button > p {
 	font-family: 'Arial', sans-serif;
@@ -242,4 +291,124 @@ span.lato-regular-blue {
 .download-psd button > p > img {
 	margin-right: 20px;
 }
+
+.row-download {
+	padding: 30px;
+}
 /* END DOWNLOAD PSD*/
+
+/* FOOTER */
+
+#footer {
+	background: #e8ebf1;
+	margin-top: 40px;
+	border-top: 1px solid #d8d9db;
+
+}
+
+#footer h3 {
+	font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#footer a {
+	color: #363636;
+}
+
+#footer .title-icon {
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+
+.footer-info ul {
+	padding-left: 0;
+}
+
+.footer-info ul > li {
+	list-style: none;
+	margin-bottom: 8px;
+}
+
+.footer-info ul > li > a{
+	text-decoration: none;
+}
+
+.contact-us p {
+	margin-bottom: 0;
+}
+
+.connect-with-us .row {
+	margin-bottom: 10px;
+}
+
+.copyright-text {
+	display: inline-block;
+}
+
+.copyright a {
+	text-decoration: none;
+}
+
+.copyright a > h1 {
+	margin-top: 0;
+}
+
+.copyright-text p {
+	margin-bottom: 0;
+}
+
+.copyright {
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+
+/*END FOOTER*/ 
+
+@media (min-width: 1200px) {	
+	
+} 
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.carousel-caption-img img {
+		width: 34%;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	/*HEADER*/
+	.logo-style {
+		font-size: 40px;
+	}	
+	#nav-list > li > a {
+		font-size: 13px;
+	}
+
+	.carousel-caption h1 {
+		font-size: 40px;
+	}
+
+	.carousel-caption-img img {
+		width: 35%;
+	}
+	/*END HEADER*/
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.logo-style {
+		font-size: 30px;
+	}	
+	#nav-list > li > a {
+		font-size: 13px;
+	}
+
+	.carousel-caption h1 {
+		font-size: 5vw;
+	}
+	.carousel-caption-img img {
+		width: 30%;
+	}
+}
+
